@@ -1,9 +1,11 @@
 import "./styles.css";
 
 document.getElementById("app").innerHTML = `
-<canvas id="canvas" width="500" height="500"></canvas>
-<div>
-  Głębokość rekursji: <input type="number" id="depth" min="0" max="8" step="1" value="3" />
+<div id="container">
+  <canvas id="canvas" width="500" height="500"></canvas>
+  <div>
+    Głębokość rekursji: <input type="number" id="depth" min="0" max="8" step="1" value="3" />
+  </div>
 </div>
 `;
 
